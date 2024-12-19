@@ -1,0 +1,24 @@
+{
+  "name": "scrabble_game_server",
+  "version": "1.0.0",
+  "description": "G600 L4 Application Programming Coursework 2020",
+  "main": "launchserver.js",
+  "scripts": {
+    "start": "node index.js",
+    "setup": "npm i",
+    "test": "nodemon index.js"
+  },
+  "author": "Ben Kyd <benjaminkyd@gmail.com> (https://benkyd.co.uk)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.8",
+    "body-parser": "^1.19.0",
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "moment": "^2.29.1",
+    "ngrok": "^5.0.0-beta.2",
+    "socket.io": "^4.8.1"
+  }
+}
